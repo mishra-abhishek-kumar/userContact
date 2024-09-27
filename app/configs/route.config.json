@@ -1,0 +1,100 @@
+{
+	"routes": [
+		{
+			"route": "/api/v1/user",
+			"method": "GET",
+			"controller": "../components/user/controller/UserController.js",
+			"action": "getAllUser"
+		},
+		{
+			"route": "/api/v1/user",
+			"method": "POST",
+			"controller": "../components/user/controller/UserController.js",
+			"action": "createUser"
+		},
+		{
+			"route": "/api/v1/user/:userId",
+			"method": "PUT",
+			"controller": "../components/user/controller/UserController.js",
+			"action": "updateUser"
+		},
+		{
+			"route": "/api/v1/user/:userId",
+			"method": "DELETE",
+			"controller": "../components/user/controller/UserController.js",
+			"action": "deleteUser"
+		},
+		{
+			"route": "/api/v1/role",
+			"method": "POST",
+			"controller": "../components/role/controller/RoleController.js",
+			"action": "createRole"
+		},
+		{
+			"route": "/api/v1/role",
+			"method": "GET",
+			"controller": "../components/role/controller/RoleController.js",
+			"action": "getAllRole"
+		},
+        {
+			"route": "/api/v1/role/:roleId",
+			"method": "PUT",
+			"controller": "../components/role/controller/RoleController.js",
+			"action": "updateRole"
+		},
+        {
+			"route": "/api/v1/role/:roleId",
+			"method": "DELETE",
+			"controller": "../components/role/controller/RoleController.js",
+			"action": "deleteRole"
+		},
+		{
+			"route": "/api/v1/contact",
+			"method": "POST",
+			"controller": "../components/contact/controller/ContactController.js",
+			"action": "createcontact"
+		},
+		{
+			"route": "/api/v1/contact",
+			"method": "GET",
+			"controller": "../components/contact/controller/ContactController.js",
+			"action": "getAllContact"
+		},
+        {
+			"route": "/api/v1/contact/:contactId",
+			"method": "PUT",
+			"controller": "../components/contact/controller/ContactController.js",
+			"action": "updateContact"
+		},
+        {
+			"route": "/api/v1/contact/:contactId",
+			"method": "DELETE",
+			"controller": "../components/contact/controller/ContactController.js",
+			"action": "deleteContact"
+		},
+		{
+			"route": "/api/v1/information",
+			"method": "POST",
+			"controller": "../components/information/controller/InformationController.js",
+			"action": "createInformation"
+		},
+		{
+			"route": "/api/v1/information",
+			"method": "GET",
+			"controller": "../components/information/controller/InformationController.js",
+			"action": "getAllInformation"
+		},
+        {
+			"route": "/api/v1/information/:informationId",
+			"method": "PUT",
+			"controller": "../components/information/controller/InformationController.js",
+			"action": "updateInformation"
+		},
+        {
+			"route": "/api/v1/information/:informationId",
+			"method": "DELETE",
+			"controller": "../components/information/controller/InformationController.js",
+			"action": "deleteInformation"
+		}
+	]
+}
